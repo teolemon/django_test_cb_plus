@@ -31,7 +31,7 @@ def item_create(request):
         
         data_json = api_world_food(item.gtin)
         item.name = extract_name(data_json)
-        item.url_photo = extract_url_image(data_json)
+        #item.url_photo = extract_url_image(data_json)
 
         for i in Inventory.objects.all():
             if i.gtin == item.gtin:
