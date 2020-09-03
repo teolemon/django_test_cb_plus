@@ -1,5 +1,5 @@
 
-# 2. Résultats
+# Résultats
 * When adding a new product, the user should not have to enter a product name
 
 J'ai supprimé de la liste 'name'.
